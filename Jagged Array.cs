@@ -6,7 +6,7 @@ namespace test {
 
             string[] students = new string[3];
             students[0] = "Andrew";
-            students[1] = "Ahmet";
+            students[1] = "Hany";
             students[2] = "Ali";
 
             string[][] jaggedArray = new string[3][];

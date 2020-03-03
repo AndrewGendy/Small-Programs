@@ -4,17 +4,17 @@ namespace test {
     class Program {
         static void Main(string[] args) {
 
-            Customers Ali = new Customers {
-                FirstName = "Ali",
-                LastName = "Muhamad"
+            Customers Gendy = new Customers {
+                FirstName = "Andrew",
+                LastName = "Gendy"
             };
 
             object[] array = new object[4];
 
             array[0] = 1;
             array[1] = 2.5;
-            array[2] = "Andrew";
-            array[3] = Ali;
+            array[2] = "Hany";
+            array[3] = Gendy;
 
             foreach (object obj in array) {
 
